@@ -32,6 +32,7 @@ extension GitHub.ContinuousIntegration.Validation {
             HardenRunner(),
             InputDefaults(),
             PermissionsShape(),
+            PinnedActionSchema(),
             SubOrgWrappers(),
             ThinCallers(),
             VisibilityGate(),
